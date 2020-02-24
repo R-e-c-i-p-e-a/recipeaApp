@@ -1,0 +1,142 @@
+body {
+     font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+   overflow: auto;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 100px;
+    grid-template-areas:
+      "top top"
+      "main main";
+      
+    height: 100%;
+ background-color:	#eef0ee;
+  grid-gap:3rem;
+}
+.top{
+  grid-area:top;
+  
+  margin-top:1rem;
+}
+#topL{
+  border:2px solid black;
+  padding-left:2rem;
+  padding-right:2rem;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  float:right;
+  margin-right:3rem;
+  cursor:pointer;
+}
+
+.g:hover{
+  
+
+}
+#back{
+  border:2px solid black;
+  padding-left:2rem;
+  padding-right:2rem;
+ margin-top:1rem;
+  padding-bottom:.3rem;
+  padding-top:.3rem;
+  margin-left:3rem;
+  cursor:pointer;
+  transition:background-color  .4s;
+}
+#back:hover{
+  background-color:black;
+  color:white
+}
+
+ /* end top */
+
+.main{
+ 
+grid-area:main;
+margin-top:-7rem;
+  
+}
+.main span{
+   
+  border-radius:15px;
+  height:25rem;
+  width:20rem;
+  padding:1rem;
+ display:inline;
+  padding-top:7rem;
+  padding-bottom:7rem; 
+  padding-left:5rem;
+  padding-right:5rem; 
+}
+.top{
+  margin-top:5rem;
+  display:inline;
+}
+.a{
+background-color:green;
+  margin-left:15vw;
+  width:19rem;
+  float:left;
+  height:15rem;
+  padding:.5rem;
+  border-radius:15px;
+}
+.b{
+ margin-right:15vw;
+  background-color:green;
+  width:19rem;
+  float:right;
+  height:15rem;
+  padding:.5rem;
+  border-radius:15px;
+}
+.bottom{
+  margin-top:15rem;
+}
+.c{
+
+margin-left:3rem;
+background-color:green;
+  margin-left:15vw;
+  width:19rem;
+  float:left;
+  height:15rem;
+  padding:.5rem;
+  border-radius:15px;  
+}
+.d{
+  margin-left:3rem;
+margin-right:15vw;
+  background-color:green;
+  width:19rem;
+  float:right;
+  height:15rem;
+  padding:.5rem;
+  border-radius:15px;
+}
+.img{
+  height:6rem;
+  width:10rem;
+  background-color:black;
+}
+.name{
+float:right;
+ font-size:.8rem;
+ margin-right:4rem;
+}
+.prep{
+  margin-top:1rem;
+}
+.heart{
+  border: 3px solid white;
+  padding: 7px;
+  border-radius: 50%;
+  margin-top:2rem;
+  margin-left:16.5rem;
+  color: red;
+}
+.heart:hover{
+  color: white;
+  border: 3px solid red;
+}
