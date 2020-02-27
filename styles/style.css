@@ -39,11 +39,11 @@ body {
   margin-top:15vh;
 }
 .left{
-  grid-area:left;
+  grid-area:right;
   
 }
 .right{
-  grid-area:right;
+  grid-area:left;
   
 }
 .optionBox{
@@ -71,3 +71,7 @@ body {
   .optionBox:hover {
     background: #559141;
   } 
+
+div.left.optionBox {
+  float:right;
+}
