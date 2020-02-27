@@ -15,42 +15,13 @@ body {
 }
 .top{
   grid-area:top;
-  
-  margin-top:1rem;
-}
+  }
 
 #topL{
-  border:2px solid black;
-  padding-left:1rem;
-  padding-right:1rem;
-  padding-top:.5rem;
-  padding-bottom:.5rem;
   float:right;
-  margin-right:3rem;
-  cursor:pointer;
-  transition: color 1s;
-  transition: background-color 1s;
-}
-#topL:hover{
-  background-color:black;
-  color:white;
 }
 
-#back{
-  border:2px solid black;
-  padding-left:2rem;
-  padding-right:2rem;
- margin-top:1rem;
-  padding-bottom:.3rem;
-  padding-top:.3rem;
-  margin-left:3rem;
-  cursor:pointer;
-  transition:background-color  .4s;
-}
-#back:hover{
-  background-color:black;
-  color:white
-}
+
 #searchFilter{
   margin:auto;
   margin-top:3rem;
