@@ -48,13 +48,13 @@ body {
   text-align:Center;
   color:white;
   cursor:pointer;
-  background-color:	#5f7add;
+  background-color:	#6DC06E;
   transition: background-color .8s;
    transition: color .8s;
 }
 .g:hover{
   background-color:white;
-    color: 	#5f7add;
+    color: 	#6DC06E;
   
 
 }
@@ -114,7 +114,7 @@ margin-top:-7rem;
   display:inline;
 }
 .a{
-background-color:#f8d2a3;
+background-color:#8FE875;
   margin-left:4rem;
   width:19rem;
   float:left;
