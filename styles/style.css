@@ -1,3 +1,13 @@
+@font-face {
+  font-family: logoFont;
+  src: url(LogoFont.woff);
+}
+
+h1 {
+  font-family: logoFont;
+  font-size: 125px;
+}
+
 body {
      font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
    overflow: auto;
