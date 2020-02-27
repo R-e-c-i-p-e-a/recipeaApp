@@ -13,38 +13,25 @@ body {
  grid-gap:3rem;
 
 }
-.top{
-  grid-area:top;
-  }
+
 .back{
   float:right;
 }
+.topL{
+  float:left;
+}
 
-/*
-.main{
- 
+.title{
   grid-area:main;
-  margin-top:-7rem;
-    
-  }
-  .main span{
-     
-    border-radius:15px;
-    height:25rem;
-    width:20rem;
-    padding:1rem;
-   display:inline;
-    padding-top:7rem;
-    padding-bottom:7rem; 
-    padding-left:5rem;
-    padding-right:5rem; 
-    background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom:5rem;
+}
+#title{
+  text-align:center;
+  margin-top:15vh;
+}
 
-  }
-  
-/*
 .form {
-  grid-area:auto;}
+  grid-area:grid;}
 .form > div {
   text-align: center;
   padding: 20px 0;
@@ -61,4 +48,4 @@ body {
       box-shadow: 0 0 8px  #669999; 
       text-align: center;
       }
-      */
+    
