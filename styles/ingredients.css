@@ -15,11 +15,25 @@ body {
 }
 .top{
   grid-area:top;
+  
+  margin-top:1rem;
 }
 #topL{
+  border:2px solid black;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
   float:right;
+  margin-right:3rem;
+  cursor:pointer;
+  transition: color 1s;
+  transition: background-color 1s;
 }
-
+#topL:hover{
+  background-color:black;
+  color:white;
+}
 .listIngredi{
   float:right;
   margin-top:6rem;
@@ -34,15 +48,31 @@ body {
   text-align:Center;
   color:white;
   cursor:pointer;
-  background-color:	#6DC06E;
+  background-color:	#5f7add;
   transition: background-color .8s;
    transition: color .8s;
 }
 .g:hover{
   background-color:white;
-    color: 	#6DC06E;
-}
+    color: 	#5f7add;
+  
 
+}
+#back{
+  border:2px solid black;
+  padding-left:2rem;
+  padding-right:2rem;
+ margin-top:1rem;
+  padding-bottom:.3rem;
+  padding-top:.3rem;
+  margin-left:3rem;
+  cursor:pointer;
+  transition:background-color  .4s;
+}
+#back:hover{
+  background-color:black;
+  color:white
+}
 #searchFilter{
   margin:auto;
   margin-top:3rem;
@@ -79,9 +109,12 @@ margin-top:-7rem;
   padding-left:5rem;
   padding-right:5rem; 
 }
-
+.top{
+  margin-top:5rem;
+  display:inline;
+}
 .a{
-background-color:#8FE875;
+background-color:#f8d2a3;
   margin-left:4rem;
   width:19rem;
   float:left;
@@ -135,4 +168,41 @@ float:right;
 }
 .prep{
   margin-top:1rem;
+}
+.fa-filter{
+  border:2px solid black;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  padding-left:.5rem;
+  padding-right:.5rem;
+  border-radius:15px;
+  transition: color 1s;
+  transition: background-color 1s;
+}
+.fa-filter:hover{
+  color:white;
+  background-color:black;
+}
+/* modal */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; 
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
 }
