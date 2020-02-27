@@ -23,18 +23,7 @@ body {
 #topR{
   float:right;
 }
-#topL, #topR{
-  text-align:center;
-  border:2px solid black;
-  padding-left:2rem;
-  padding-right:2rem;
-  padding-top:.5rem;
-  padding-bottom:.5rem;
-  margin-right:3rem;
-  margin-top:3vh;
-  margin-left:3rem;
-  margin-bottom:3vh;
-}
+
 .title{
   grid-area:main;
 }

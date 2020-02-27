@@ -15,12 +15,9 @@ body {
 }
 .top{
   grid-area:top;
-  
-  margin-top:1rem;
-}
+  }
 #topL{
   float:right;
-  margin-right:3rem;
 }
 
 .g:hover{ 
@@ -45,10 +42,7 @@ margin-top:-7rem;
   padding-left:5rem;
   padding-right:5rem; 
 }
-.top{
-  margin-top:5rem;
-  display:inline;
-}
+
 .a{
 background-color:#8FE875;
   margin-left:15vw;
