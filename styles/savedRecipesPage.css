@@ -105,14 +105,11 @@ float:right;
   margin-top:1rem;
 }
 .heart{
-  border: 3px solid white;
   padding: 7px;
-  border-radius: 50%;
   margin-top:2rem;
   margin-left:16.5rem;
-  color: red;
+  color: white;
 }
 .heart:hover{
-  color: white;
-  border: 3px solid red;
+  color:red;
 }
