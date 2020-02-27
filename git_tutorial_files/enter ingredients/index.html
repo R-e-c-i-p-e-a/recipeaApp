@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Enter Ingredients</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <html>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <body>
@@ -31,7 +41,34 @@
      </div>
       </div>
        <h1 style="text-align:center">   Enter Ingredients</h1>
-      <div id="searchFilter" style="text-align:center"><input type="text" placeholder="search" id="search" value =''/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;" id="searcher"></i></div>
+      
+      
+      <div id="myModal" class="modal">
+
+  <!-- modal text -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <form>
+      Health Labels:
+     <br><br>
+      
+        <input id ="vegan" value="vegan" type="checkbox">Vegan</input>
+        <input value="Vegetarian" type="checkbox" id="Vegetarian" >Vegetarian</input>
+        <input value="Peanut-Free" type="checkbox" id="Peanut-Free" >Peanut-Free</input>
+      <br>
+        <input value="Tree-Nut-Free" type="checkbox" id="Tree-Nut-Free">Tree-Nut-Free</input>
+        <input value="Alcohol-Free" type="checkbox" id="Alcohol-Free">Alcohol-Free</input>
+        <input value="Sugar-Conscious" type="checkbox" id="Sugar-Conscious">Sugar-Conscious</input>
+          
+     
+    
+    </form>
+  </div>
+
+</div>
+      
+      
+      <div id="searchFilter" style="text-align:center"><i class="fa fa-filter" style="font-size:1.2rem;margin-right:1rem;" id="myBtn"></i><input type="text" placeholder="search" id="search" value =''/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;" id="searcher"></i></div>
       <div id="output" style="text-align:center">
       Temp Query Output:
       
@@ -139,4 +176,9 @@
     </div>
   </body>
   
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
 </html>
