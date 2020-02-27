@@ -38,7 +38,7 @@ body {
   padding: 20px 0;
   margin-left: 100px;
   margin-right: 100px;
-  font-size: 30px;
+  font-size: 40px;
 }
 
  .form-control {
@@ -46,7 +46,9 @@ body {
       padding: 20px;
       border-radius: 6px;
       background: #fff;
-      box-shadow: 0 0 8px  #669999; 
+      box-shadow: 0 0 8px #134611; 
       text-align: center;
+      font-size: 40px;
+      color:#6DC06E;
       }
     
