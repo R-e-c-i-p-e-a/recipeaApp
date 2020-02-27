@@ -3,6 +3,11 @@
   src: url(LogoFont.woff);
 }
 
+html, body {
+  background-color: #eef0ee;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+
 h1, h2 {
   font-family: logoFont;
   color: #134611;
