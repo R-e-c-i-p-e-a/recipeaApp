@@ -1,3 +1,0 @@
-const goBack = () => {
-   history.back();
-}
