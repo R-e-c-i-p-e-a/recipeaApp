@@ -1,0 +1,17 @@
+@font-face {
+  font-family: logoFont;
+  src: url(LogoFont.woff);
+}
+
+h1, h2 {
+  font-family: logoFont;
+  color: #134611;
+}
+
+h1 {
+  font-size: 125px;
+}
+
+h2 {
+  font-size: 75px;
+}
