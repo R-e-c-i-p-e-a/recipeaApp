@@ -142,6 +142,7 @@ float:right;
 }
 .prep{
   margin-top:1rem;
+  font-size:.8rem;
 }
 .fa-filter{
   border:2px solid black;
@@ -152,6 +153,7 @@ float:right;
   border-radius:15px;
   transition: color 1s;
   transition: background-color 1s;
+  cursor:pointer
 }
 .fa-filter:hover{
   color:white;
@@ -162,7 +164,7 @@ float:right;
   display: none; 
   position: fixed; 
   z-index: 1; 
-  padding-top: 100px; 
+  padding-top: 30px; 
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -176,7 +178,34 @@ float:right;
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding:20px;
   border: 1px solid #888;
   width: 80%;
+  height:90%;
+  overflow-y: scroll;
+}
+.modal-content2 {
+  background-color: #fefefe;
+  margin: auto;
+  padding:20px;
+  border: 1px solid #888;
+  width: 80%;
+  height:30%;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.center{
+  text-align:center;
+  margin-left:40%;
+  
+}
+p{
+  text-align:center;
+}
+.missinIng{
+  display:none
 }

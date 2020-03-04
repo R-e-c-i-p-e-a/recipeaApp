@@ -23,55 +23,45 @@
        
       
    <div class="listIngredi" >
-     <div class="g" style="">
-       eggs
-     </div>
-     <br>
-     <div class="g" style="">
-      spinach
-     </div>
-     <br>
-     <div class="g" style="">
-       tomatoes
-     </div>
-      <br>
-     <div class="g" style="">
-       onions
-     </div>
-     <br>
-     <div class="g" style="">
-      bacon
-     </div>
+     
+     
       </div>
        <h1 style="text-align:center">   Enter Ingredients</h1>
-      
-      
+      <p>
+        Please enter the ingredients you would like to use seperated by commas<br><br>
+      <i>  Example. "chicken,eggs"</i>
+      </p>
+      <div id="myModal2" class="modal">
+        
+        
+      <div class="modal-content2">
+    <span class="close" onclick="closer()" style="cursor:pointer">&times;</span>
+  <form>
+    <br>
+    Ignore Basic Pantry Ingredients (ex. flour,water,salt): <input type="checkbox" name="pantry" id="pantry">
+    <br>
+     Maximize used ingredients or minimize missing ingredients: 
+    <select id="maximizeOr" >
+      <option value="zero"></option>
+      <option name="maximize" id="maximize" value="1">Maximize</option>
+      <option name="minimize" id="minimize" value="2">Minimize</option>
+    </select>
+        </form>
+  </div>  
+        
+      </div>
       <div id="myModal" class="modal">
 
   <!-- modal text -->
   <div class="modal-content">
-    <span class="close">&times;</span>
-    <form>
-      Health Labels:
-     <br><br>
-      
-        <input id ="vegan" value="vegan" type="checkbox">Vegan</input>
-        <input value="Vegetarian" type="checkbox" id="Vegetarian" >Vegetarian</input>
-        <input value="Peanut-Free" type="checkbox" id="Peanut-Free" >Peanut-Free</input>
-      <br>
-        <input value="Tree-Nut-Free" type="checkbox" id="Tree-Nut-Free">Tree-Nut-Free</input>
-        <input value="Alcohol-Free" type="checkbox" id="Alcohol-Free">Alcohol-Free</input>
-        <input value="Sugar-Conscious" type="checkbox" id="Sugar-Conscious">Sugar-Conscious</input>
-          
-     
-    
-    </form>
+    <span class="close" onclick="closer()">&times;</span>
+  
   </div>
 
 </div>
       
       
-      <div id="searchFilter" style="text-align:center"><i class="fa fa-filter" style="font-size:1.2rem;margin-right:1rem;" id="myBtn"></i><input type="text" placeholder="search" id="search" value =''/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;" id="searcher"></i></div>
+      <div id="searchFilter" style="text-align:center" ><span onclick="filterModal();"><i class="fa fa-filter" style="font-size:1.2rem;margin-right:1rem;" id="myBtn" onclick="filterModal();"></i></span><input type="text" placeholder="search" id="search" value =''/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;" id="searcher"></i></div>
       <div id="output" style="text-align:center">
       Temp Query Output:
       
@@ -82,97 +72,14 @@
     <!-- end top features -->
     <div class="main">
 
-         <div class="top">          
-      <div class="a">
-       <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-      </div>
+         <div class="top" id="topData">          
+     
       
-      <div class="a">
-       <div class="name">Name: Pasta</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
+    
         
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-      </div>
-            <div class="a">
-       <div class="name">Name: Salad</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-      </div>
-            <div class="a">
-       <div class="name">Name: Soup</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-      </div>
-            <div class="a">
-       <div class="name">Name: Cake</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-      </div>
-            <div class="a">
-       <div class="name">Name: Cereal</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-      </div>
-            <div class="a">
-       <div class="name">Name: Stew</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-      </div>
-      
-       <div class="a">
-       <div class="name">Name: Curry</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-      </div>
+           
+            
+         
       </div>
  
      
