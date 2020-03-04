@@ -1,0 +1,22 @@
+@font-face {
+  font-family: logoFont;
+  src: url(LogoFont.woff);
+}
+
+html, body {
+  background-color: #eef0ee;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+}
+
+h1, h2 {
+  font-family: logoFont;
+  color: #134611;
+}
+
+h1 {
+  font-size: 125px;
+}
+
+h2 {
+  font-size: 75px;
+}

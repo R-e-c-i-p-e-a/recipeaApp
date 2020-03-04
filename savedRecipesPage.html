@@ -2,22 +2,22 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Saved Recipeas</title>
+  <title>Recipea | Saved Recipeas</title>
+  <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/savedRecipesPage.css">
+  <link rel="stylesheet" href="./styles/buttons.css">
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <html>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <body>
     <div class="top">
-      <span id="back">
-        Back
-      </span>
-       <span id="topL" ><i class="fa fa-heart-o" style="font-size:1.3rem;color:red;margin-right:1rem;"></i> Saved Lists</span>
-      
-      
+      <span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span>
+      <!-- <span id="topL" class="btn-2 btn-sep fa fa-heart">Saved Recipeas</span> -->
     </div>
     
     
@@ -25,8 +25,9 @@
     <div class="main">
 
          <div class="top">      
-           
-      <div class="a">
+          <h2 style="text-align:center">Saved Recipeas</h2>
+      
+      <a href="recipePage.html"><div class="a">
        <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -37,11 +38,10 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
         <div class="heart">
-          <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>
-        
-        
-      </div>
-       <div class="b">
+          <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>      
+      </div></a>
+
+      <a href="recipePage.html"><div class="b">
            <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -53,11 +53,13 @@
         </div>
          <div class="heart">
           <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>
+      </div></a>
       </div>
-      </div>
+
         <br><br><br>
+
       <div class="bottom">
-       <div class="c">
+       <a href="recipePage.html"><div class="c">
           <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -69,8 +71,9 @@
         </div>
          <div class="heart">
           <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>
-      </div>
-       <div class="d">
+      </div></a>
+
+       <a href="recipePage.html"><div class="d">
          <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -82,13 +85,14 @@
         </div>
          <div class="heart">
           <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>
-      </div>
+      </div></a>
+      
       </div>
     </div>
   </body>
   
 </html>
 <!-- partial -->
-  
+  <script src="./scripts/global.js"></script>
 </body>
 </html>

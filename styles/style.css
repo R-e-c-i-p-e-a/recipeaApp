@@ -1,3 +1,14 @@
+@font-face {
+  font-family: logoFont;
+  src: url(LogoFont.woff);
+}
+
+h1 {
+  font-family: logoFont;
+  font-size: 125px;
+  color: #134611;
+}
+
 body {
      font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
    overflow: auto;
@@ -12,29 +23,11 @@ body {
     height: 100%;
  background-color:	#eef0ee;
 }
-.topL{
-  text-align:right;
-  margin-right:3rem;
-  margin-top:3vh;
-  
-  
-}
+
 #topL{
-  border:2px solid black;
-  padding-left:1rem;
-  padding-right:1rem;
-  padding-top:.5rem;
-  padding-bottom:.5rem;
   float:right;
-  margin-right:3rem;
-  cursor:pointer;
-  transition: color 1s;
-  transition: background-color 1s;
 }
-#topL:hover{
-  background-color:black;
-  color:white;
-}
+
 .title{
   grid-area:main;
   
@@ -46,26 +39,39 @@ body {
   margin-top:15vh;
 }
 .left{
-  grid-area:left;
-  
-}
-.right{
   grid-area:right;
   
 }
-.optionBox{
-  border:2px solid #eef0ee;
-  width:75%;
-  margin:auto;
-  padding-top:5rem;
-  padding-bottom:5rem;
-  text-align:center;
-  border-radius:25px;
-  cursor:pointer;
-  font-size:1.2rem;
-  background-color:#f2dfff;
-  transition:background-color 1s;
+.right{
+  grid-area:left;
+  
 }
-.optionBox:hover{
-  background-color:#dbf3ff;
+.optionBox{
+  
+    border: none;
+    background: #6dc06e;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lato';
+      font-size: inherit;
+      cursor: pointer;
+      padding: 25px 80px;
+      display: inline-block;
+      margin: 15px 30px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s ease;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .optionBox:hover {
+    background: #559141;
+  } 
+
+div.left.optionBox {
+  float:right;
 }

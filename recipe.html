@@ -2,25 +2,24 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Enter Recipe</title>
+  <title>Recipea | Enter Recipe</title>
+  <link rel="stylesheet" href="./styles/global.css">
   <link rel="stylesheet" href="./styles/recipe.css">
+  <link rel="stylesheet" href="./styles/buttons.css">
+
 
 </head>
 <body>
 <!-- partial:index.partial.html -->
 <html>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <body>
     <div class="top">
-      <span id="back">
-        Back
-      </span>
-      <span id="topL" ><i class="fa fa-heart-o" style="color:red;"></i> Saved Lists</span>
-     
-       
-      
-  
-       <h1 style="text-align:center">   Enter Recipe</h1>
+      <span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span>
+      <a href="savedRecipesPage.html"><span id="topL" class="btn-2 btn-sep fa fa-heart">Saved Recipeas</span></a>
+       <h2 style="text-align:center">Enter Recipea</h2>
       <div id="searchFilter" style="text-align:center"><input type="text" placeholder="search" id="search"/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;"></i></div>
     </div>
     
@@ -29,7 +28,7 @@
     <div class="main">
 
          <div class="top">          
-      <div class="a">
+    <a href="recipePage.html"><div class="a">
        <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -40,9 +39,9 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
         <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div>
+      </div></a>
 
-       <div class="a">
+      <a href="recipePage.html"><div class="a">
            <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -53,8 +52,9 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
           <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div>
-            <div class="a">
+      </div></a>
+            
+      <a href="recipePage.html"><div class="a">
           <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -65,9 +65,9 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
               <i class="fa fa-heart" style="font-size:1.3rem;m"></i>
-      </div>
+      </div></a>
            
-            <div class="a">
+      <a href="recipePage.html"><div class="a">
           <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -78,8 +78,9 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
                <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div>
-       <div class="d">
+      </div></a>
+
+      <a href="recipePage.html"><div class="d">
          <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -90,9 +91,9 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
           <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div>
+      </div></a>
            
-            <div class="d">
+      <a href="recipePage.html"><div class="d">
          <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -103,9 +104,9 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
                <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div>
+      </div></a>
            
-            <div class="d">
+      <a href="recipePage.html"><div class="d">
          <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -116,8 +117,9 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
                <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div>
-           <div class="d">
+      </div></a>
+
+      <a href="recipePage.html"><div class="d">
          <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -128,7 +130,7 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
               <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div>
+      </div></a>
       </div>
         <br><br><br>
       
@@ -137,6 +139,6 @@
   
 </html>
 <!-- partial -->
-  
+  <script src="./scripts/global.js"></script> 
 </body>
 </html>
