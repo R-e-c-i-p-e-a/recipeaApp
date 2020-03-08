@@ -4,8 +4,11 @@
 }
 
 html, body {
+  background:
+	linear-gradient(135deg, #eef0ee 21px, #d7dce0 22px, #d7dce0 24px, transparent 24px, transparent 67px, #d7dce0 67px, #d7dce0 69px, transparent 69px),
+	linear-gradient(225deg, #eef0ee 21px, #d7dce0 22px, #d7dce0 24px, transparent 24px, transparent 67px, #d7dce0 67px, #d7dce0 69px, transparent 69px)0 64px;
   background-color: #eef0ee;
-  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+	background-size: 64px 128px;
 }
 
 h1, h2 {
