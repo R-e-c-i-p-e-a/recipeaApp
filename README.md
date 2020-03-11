@@ -24,7 +24,8 @@ After user testing, most users liked the simple button options and the filter se
 
 ### Components:
 
-#### 1. Branding
+#### 1. Branding  
+![Style Sheet](Branding/png)
 #### 2. Interactive Data Filter
 #### 3. External Data Integration
 #### 4. Gamification
