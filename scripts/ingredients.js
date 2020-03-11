@@ -12,6 +12,8 @@ const clear = () =>{
 }
 const search = (ev) => {
  
+   // Badges | Increment numSearches counter
+   updateNumSearches();
    
   document.querySelector('#output').innerHTML = ' ';
   document.querySelector('#output').innerHTML ='Loading...';
