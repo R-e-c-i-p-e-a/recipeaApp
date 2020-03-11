@@ -17,15 +17,15 @@ After user testing, most users liked the simple button options and the filter se
 ## High-Fidelity Prototype  
 
 ### Tasks:
-**1. Filtering searches for recipes**  
-**2. Searching for recipes directly**  
-**3. Saved recipes page**  
+#### 1. Filtering searches for recipes 
+#### 2. Searching for recipes directly
+#### 3. Saved recipes page
 
-### Components
-**1. Branding**  
-**2. Interactive Data Filter**  
-**3. External Data Integration**  
-**4. Gamification**
+### Components:
+#### 1. Branding
+#### 2. Interactive Data Filter
+#### 3. External Data Integration
+#### 4. Gamification
 
 ## Reflection
 What you managed to accomplish in the time you had
