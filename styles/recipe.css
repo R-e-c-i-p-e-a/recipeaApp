@@ -109,3 +109,116 @@ float:right;
 .prep{
   margin-top:1rem;
 }
+/*modal */
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 30px; 
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; 
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding:20px;
+  border: 1px solid #888;
+  width: 80%;
+  height:90%;
+  overflow-y: scroll;
+}
+
+.modal-content2 {
+  background-color: #fefefe;
+  margin: auto;
+  padding:20px;
+  border: 1px solid #888;
+  width: 80%;
+  height:50%;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.center{
+  text-align:center;
+  margin-left:40%;
+  
+}
+p{
+  text-align:center;
+}
+/*end modal */
+.fa-filter{
+  border:2px solid black;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  padding-left:.5rem;
+  padding-right:.5rem;
+  border-radius:15px;
+  transition: color 1s;
+  transition: background-color 1s;
+  cursor:pointer
+}
+.fa-filter:hover{
+  color:white;
+  background-color:black;
+}
+#modalSub{
+  border:2px solid black;
+  width:5rem;
+  text-align:center;
+  margin:auto;
+  margin-top:2rem;
+  cursor:pointer;
+  transition: background-color 1s;
+  transition: color 1s;
+}
+#modalSub:hover{
+  background-color:black;
+  color:white;
+}
+/* ytool pop up */
+.tl {
+  
+  display: inline-block;
+  
+}
+
+.tl .tlText {
+  visibility: hidden;
+  
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+border:1px solid black;
+}
+.tlText{
+margin:auto;
+margin-top:-5.4rem;
+margin-left:-8rem;
+
+}
+.tl:hover .tlText {
+  visibility: visible;
+}
+#output{
+  text-align:center
+}
