@@ -39,5 +39,5 @@ Link to the Repository [R-e-c-p-e-a](https://github.com/R-e-c-i-p-e-a)
 A link to a working version of your prototype (or a video of it)
 
 Instructions for running your app  
-This prototype is best viewed on Google Chrome ![](img/ChromeLogo.jpeg)
+This prototype is best viewed on Google Chrome  
 
