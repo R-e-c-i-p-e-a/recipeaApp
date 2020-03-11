@@ -17,19 +17,21 @@ After user testing, most users liked the simple button options and the filter se
 ## High-Fidelity Prototype  
 
 ### Tasks:
-#### 1. Filtering searches for recipes 
-#### 2. Searching for recipes directly
-#### 3. Saved recipes page
+
+#### 1. Filter Search 
+#### 2. Add Search for Recipes
+#### 3. Save Recipes 
 
 ### Components:
+
 #### 1. Branding
 #### 2. Interactive Data Filter
 #### 3. External Data Integration
 #### 4. Gamification
 
 ## Reflection
-What you managed to accomplish in the time you had
-What the next steps of your app would be if you had more time
+- What you managed to accomplish in the time you had
+- What the next steps of your app would be if you had more time
 
 ## Links
 A link to your team’s repository
