@@ -123,3 +123,8 @@ const closer = () =>{
   modal2.style.display = "none";
   
 }
+
+const refresh = () =>{
+  document.querySelector('.topA').innerHTML = '';
+}
+document.querySelector('#refresher').onclick = refresh;

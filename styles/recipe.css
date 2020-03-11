@@ -13,9 +13,12 @@ body {
  background-color:	#eef0ee;
   grid-gap:3rem;
 }
-.top{
+.topA,.top{
   grid-area:top;
   }
+.topA .a div,.topA .a img{
+  float:left;
+}
 
 #topL{
   float:right;

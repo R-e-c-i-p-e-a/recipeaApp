@@ -209,3 +209,9 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+const refresh = () =>{
+  document.querySelector('#topData').innerHTML = '';
+}
+document.querySelector('#refresher').onclick = refresh;
