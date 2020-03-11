@@ -1,7 +1,9 @@
 # Recipea App
-# Problem & Related Work (P1)
-The problem and why it’s important
-Related work in this space and how your team aimed to improve / build upon existing efforts
+# Goal
+Related work in this space and how your team aimed to improve/build upon existing efforts
+"Search for Recipeas based on ingredients." 
+It helps users who have limited ingredients at kitchen, assist grocery shopping, and prepare simple dishes.
+There are many webApps that help users to search of recipes with key ingredients. But it doesn't account for all the other ingredients that user might not have to prepare the dish. Help people by providing instructions or recipes to cook food based on the ingredients they have in the kitchen. Our goal is to provide a WebApp for easy recipe search based on ingredients.
 # User Research (P2 & P3)
 What you wanted to learn via interviews and observations
 Your research approach
