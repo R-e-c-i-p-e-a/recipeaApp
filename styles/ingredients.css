@@ -159,6 +159,17 @@ float:right;
   color:white;
   background-color:black;
 }
+.a .prep .fa-heart{
+  margin-top:3px;
+  float:right;
+  cursor:pointer;
+  transition:color .4s;
+  color:black;
+}
+.a .prep .fa-heart:hover{
+  color:red;
+ }
+
 /* modal */
 .modal {
   display: none; 

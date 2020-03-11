@@ -101,6 +101,7 @@ const displayResults = (data) => {
   }
    
     string += "<i style='cursor:pointer' class='fa fa-plus' onclick='extraDetails("+data[i]['id']+")'></i>";
+    string += "<i class='fa fa-heart fa-2x'></i>";
     string += "</div></div>";
     
     document.querySelector('.top').innerHTML += string;
