@@ -1,5 +1,4 @@
-# Recipea 
-
+ ![](img/RecipeaLogo.png)
 ## Goal
 **Search for Recipeas based on Ingredients.**
 - Our cooking application mainly targets those that are young professionals between the ages of 20-30. We plan to optimize our application for those that have busy schedules (limited time to cook) and may not know how to cook or may struggle to find recipes for the ingredients they have on-hand.
