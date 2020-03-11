@@ -13,7 +13,9 @@ const clear = () =>{
 }
 const search = (ev) => {
  
-   
+   // Badges | Increment numSearches counter
+   updateNumSearches();
+
   document.querySelector('#output').innerHTML = ' ';
   document.querySelector('#output').innerHTML ='Loading...';
  console.log(document.getElementById("pantry").checked);
@@ -95,6 +97,7 @@ const displayResults = (data) => {
   }
    
     string += "<i style='cursor:pointer' class='fa fa-plus' onclick='extraDetails("+data[i]['id']+")'></i>";
+    string += "<i class='fa fa-heart fa-2x' onclick='updateNumHearts()'></i>";
     string += "</div></div>";
     
     document.querySelector('.top').innerHTML += string;
