@@ -44,6 +44,12 @@ const search = (ev) => {
 }
 var missinNames = [];
 
+const heartCount = () => {
+  var modal = document.getElementById("myModal3");
+  modal.style.display = "block";
+  console.log('TEST');
+}
+
 const displayResults = (data) => {
  
  idVal = document.getElementById('search').value;
@@ -103,7 +109,7 @@ const displayResults = (data) => {
   }
    
     string += "<i style='cursor:pointer' class='fa fa-plus' onclick='extraDetails("+data[i]['id']+")'></i>";
-    string += "<i class='fa fa-heart fa-2x'></i>";
+    string += "<i class='fa fa-heart fa-2x' id='heartCount' onclick='heartCount();''></i>";
     string += "</div></div>";
     
     document.querySelector('.top').innerHTML += string;
@@ -158,8 +164,6 @@ const extraDetails = (id) => {
         .then(displayPopup);
 }
 
-
-
 const displayPopup = (data) => {
   
   string = '<h2 style="text-align:center">'+data['title'] + '</h2><br>';
@@ -211,3 +215,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+document.querySelector('#heartCount').onclick = search;
