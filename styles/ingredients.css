@@ -19,9 +19,21 @@ body {
   margin-top:1rem;
 }
 #topL{
+  border:2px solid black;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
   float:right;
+  margin-right:3rem;
+  cursor:pointer;
+  transition: color 1s;
+  transition: background-color 1s;
 }
-
+#topL:hover{
+  background-color:black;
+  color:white;
+}
 .listIngredi{
   float:right;
   margin-top:6rem;
@@ -46,7 +58,21 @@ body {
   
 
 }
-
+#back{
+  border:2px solid black;
+  padding-left:2rem;
+  padding-right:2rem;
+ margin-top:1rem;
+  padding-bottom:.3rem;
+  padding-top:.3rem;
+  margin-left:3rem;
+  cursor:pointer;
+  transition:background-color  .4s;
+}
+#back:hover{
+  background-color:black;
+  color:white
+}
 #searchFilter{
   margin:auto;
   margin-top:3rem;
@@ -88,7 +114,7 @@ margin-top:-7rem;
   display:inline;
 }
 .a{
-background-color: #8FE875;
+background-color:#f8d2a3;
   margin-left:4rem;
   width:19rem;
   float:left;
@@ -159,17 +185,6 @@ float:right;
   color:white;
   background-color:black;
 }
-.a .prep .fa-heart{
-  margin-top:3px;
-  float:right;
-  cursor:pointer;
-  transition:color .4s;
-  color:black;
-}
-.a .prep .fa-heart:hover{
-  color:red;
- }
-
 /* modal */
 .modal {
   display: none; 
@@ -201,7 +216,8 @@ float:right;
   padding:20px;
   border: 1px solid #888;
   width: 80%;
-  height:30%;
+  height:50%;
+  
 }
 img{
   display: block;
@@ -219,4 +235,18 @@ p{
 }
 .missinIng{
   display:none
+}
+#modalSub{
+  border:2px solid black;
+  width:5rem;
+  text-align:center;
+  margin:auto;
+  margin-top:2rem;
+  cursor:pointer;
+  transition: background-color 1s;
+  transition: color 1s;
+}
+#modalSub:hover{
+  background-color:black;
+  color:white;
 }

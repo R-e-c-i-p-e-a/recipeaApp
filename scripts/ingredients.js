@@ -1,3 +1,4 @@
+var displayCount = 0;
 const randomC = () =>{
    var letters = '0123456789ABCDEF';
   var color = '#';
@@ -14,7 +15,7 @@ const search = (ev) => {
  
    // Badges | Increment numSearches counter
    updateNumSearches();
-   
+
   document.querySelector('#output').innerHTML = ' ';
   document.querySelector('#output').innerHTML ='Loading...';
  console.log(document.getElementById("pantry").checked);
@@ -74,14 +75,7 @@ const displayResults = (data) => {
   for (i = 0; i < data.length; i++){
     //missing ingredients logic
     
-    if(data[i]['missedIngredients'].length == 0){
-//    string += '<span style="font-weight:bold">No missing Ingredients</span>';
-  }else{
-    // for(missing = 0;missing <data[i]['missedIngredients'].length;missing++){
-    //   missingNames.append(data[i]['missedIngredients'][missing]['originalString']);
-    // }
-    
-  }
+   
     string = '   <div class="a" "> <div class="name">Name:'+data[i]['title']+'</div><img class="img" src="'+data[i]['image']+'"></img>  <i class="fa fa-star" style="font-size:1.3rem;"></i>  <i class="fa fa-star" style="font-size:1.3rem;"></i> <i class="fa fa-star" style="font-size:1.3rem;"></i> <i class="fa fa-star" style="font-size:1.3rem;"></i> <div class="prep"> <span style="font-weight:bold">Used Ingredients</span> ';
   
     //used ingredients
@@ -109,7 +103,7 @@ const displayResults = (data) => {
   }
    
     string += "<i style='cursor:pointer' class='fa fa-plus' onclick='extraDetails("+data[i]['id']+")'></i>";
-    string += "<i class='fa fa-heart fa-2x' id='heartCount' onclick='heartCount();''></i>";
+    string += "<i class='fa fa-heart fa-2x' onclick='updateNumHearts()'></i>";
     string += "</div></div>";
     
     document.querySelector('.top').innerHTML += string;
@@ -120,7 +114,7 @@ const displayResults = (data) => {
   }
 
   
-  
+  document.querySelector('#output').innerHTML ="Please Refresh Page for new Query!"
   
 };
     
@@ -141,7 +135,7 @@ document.querySelector('#searcher').onclick = search;
 //modal script
 
 // Get the modal
-var modal = document.getElementById("myModal");
+
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -165,7 +159,11 @@ const extraDetails = (id) => {
 }
 
 const displayPopup = (data) => {
-  
+ if(displayCount > 0 ){
+    document.querySelector('.modal-content').innerHTML = '';
+  }
+  document.querySelector('.modal-content').innerHTML +='<span class="close" onclick="closer()">&times;</span>';
+  displayCount += 1;
   string = '<h2 style="text-align:center">'+data['title'] + '</h2><br>';
   
   string += '<span style="margin-left:45%;" >Prep Time": '+data['spoonacularScore']+' Min</span><br>';
@@ -216,4 +214,8 @@ window.onclick = function(event) {
   }
 }
 
-document.querySelector('#heartCount').onclick = search;
+
+const refresh = () =>{
+  document.querySelector('#topData').innerHTML = '';
+}
+document.querySelector('#refresher').onclick = refresh;
