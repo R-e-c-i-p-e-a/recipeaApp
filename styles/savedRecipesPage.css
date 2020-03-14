@@ -77,7 +77,7 @@ background-color:#8FE875;
 }
 .d{
   margin-left:3rem;
-margin-right:15vw;
+  margin-right:15vw;
   background-color:#8FE875;
   width:19rem;
   float:right;
@@ -88,7 +88,10 @@ margin-right:15vw;
 .img{
   height:6rem;
   width:10rem;
-  background-color:black;
+  background-color:#eef0ee;
+}
+.fa-star{
+  color: #134611;
 }
 .name{
 float:right;
