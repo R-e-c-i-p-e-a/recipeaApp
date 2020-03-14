@@ -13,27 +13,17 @@ body {
  background-color:	#eef0ee;
   grid-gap:3rem;
 }
+
+#topL{
+  float:right;
+}
 .top{
   grid-area:top;
-  
-  margin-top:1rem;
+  }
+.top{
+  display:inline-block;
 }
-#topL{
-  border:2px solid black;
-  padding-left:1rem;
-  padding-right:1rem;
-  padding-top:.5rem;
-  padding-bottom:.5rem;
-  float:right;
-  margin-right:3rem;
-  cursor:pointer;
-  transition: color 1s;
-  transition: background-color 1s;
-}
-#topL:hover{
-  background-color:black;
-  color:white;
-}
+
 .listIngredi{
   float:right;
   margin-top:6rem;
@@ -58,21 +48,7 @@ body {
   
 
 }
-#back{
-  border:2px solid black;
-  padding-left:2rem;
-  padding-right:2rem;
- margin-top:1rem;
-  padding-bottom:.3rem;
-  padding-top:.3rem;
-  margin-left:3rem;
-  cursor:pointer;
-  transition:background-color  .4s;
-}
-#back:hover{
-  background-color:black;
-  color:white
-}
+
 #searchFilter{
   margin:auto;
   margin-top:3rem;
@@ -109,10 +85,7 @@ margin-top:-7rem;
   padding-left:5rem;
   padding-right:5rem; 
 }
-.top{
-  margin-top:5rem;
-  display:inline;
-}
+
 .a{
 background-color:#f8d2a3;
   margin-left:4rem;
@@ -249,4 +222,14 @@ p{
 #modalSub:hover{
   background-color:black;
   color:white;
+}
+.fa-heart{
+  margin-top:3rem;
+  float:right;
+  cursor:pointer;
+  transition:color .4s;
+  color:black;
+}
+.fa-heart:hover{
+ color:red;
 }
