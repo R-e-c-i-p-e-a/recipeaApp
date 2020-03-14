@@ -13,9 +13,7 @@ const clear = () =>{
 }
 const search = (ev) => {
  
-   // Badges | Increment numSearches counter
-   updateNumSearches();
-
+   
   document.querySelector('#output').innerHTML = ' ';
   document.querySelector('#output').innerHTML ='Loading...';
  console.log(document.getElementById("pantry").checked);
@@ -44,12 +42,6 @@ const search = (ev) => {
   
 }
 var missinNames = [];
-
-const heartCount = () => {
-  var modal = document.getElementById("myModal3");
-  modal.style.display = "block";
-  console.log('TEST');
-}
 
 const displayResults = (data) => {
  
@@ -103,10 +95,9 @@ const displayResults = (data) => {
   }
    
     string += "<i style='cursor:pointer' class='fa fa-plus' onclick='extraDetails("+data[i]['id']+")'></i>";
-    string += "<i class='fa fa-heart fa-2x' onclick='updateNumHearts()'></i>";
     string += "</div></div>";
     
-    document.querySelector('.top').innerHTML += string;
+    document.querySelector('.topA').innerHTML += string;
 
 
     //end box
@@ -157,6 +148,8 @@ const extraDetails = (id) => {
         .then(response => response.json())
         .then(displayPopup);
 }
+
+
 
 const displayPopup = (data) => {
  if(displayCount > 0 ){
@@ -213,9 +206,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-
-
 const refresh = () =>{
-  document.querySelector('#topData').innerHTML = '';
+  document.querySelector('.topA').innerHTML = '';
 }
 document.querySelector('#refresher').onclick = refresh;
