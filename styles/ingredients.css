@@ -146,8 +146,8 @@ float:right;
 .fa-filter{
   border: none;
   background: #6dc06e;
-  padding-top:1rem;
-  padding-bottom:1rem;
+  padding-top:.80rem;
+  padding-bottom:.90rem;
   padding-left:1rem;
   padding-right:1rem;
   transition: color 1s;
@@ -156,6 +156,22 @@ float:right;
   color: #fff;
 }
 .fa-filter:hover{
+  background-color:#559141;
+}
+
+.fa-search{
+  border: none;
+  background: #6dc06e;
+  padding-top:.80rem;
+  padding-bottom:.90rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  transition: color 1s;
+  transition: background-color 1s;
+  cursor:pointer;
+  color: #fff;
+}
+.fa-search:hover{
   background-color:#559141;
 }
 /* modal */
