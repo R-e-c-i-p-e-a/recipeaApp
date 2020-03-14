@@ -18,7 +18,7 @@
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <body>
     <div class="top">
-      <span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span>
+      <a href="index.html"><span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span></a>
       <a href="savedRecipesPage.html"><span id="topL" class="btn-2 btn-sep fa fa-heart">Saved Recipeas</span></a>
        <h2 style="text-align:center;padding-left:8rem;">Enter Recipea</h2>
             <p style="text-align:center;">
@@ -30,7 +30,7 @@
         
         
       <div class="modal-content2">
-    <span class="close" onclick="closer()" style="cursor:pointer">&times;</span>
+    <span class="close" onclick="closer()" >&times;</span>
   <form style="text-align:center;">
     <br>
   
@@ -104,7 +104,7 @@
      <option name="Wheat" id="Wheat" value="Wheat"> Wheat</option>
     
     </select>  
-   <br> <div id="modalSub" onclick="closer()">Submit</div>
+   <br> <div id="modalSub" class="submit" onclick="closer()">Submit</div>
         </form>
   </div>  
         

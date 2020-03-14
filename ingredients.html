@@ -16,10 +16,8 @@
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
    <body>
     <div class="top">
-      <span id="back">
-        Back
-      </span>
-      <span id="topL" ><i class="fa fa-heart-o" style="color:red;"></i> Saved Lists</span>
+      <a href="index.html"><span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span></a>
+      <a href="savedRecipesPage.html"><span id="topL" class="btn-2 btn-sep fa fa-heart">Saved Recipeas</span></a>
      
        
       
@@ -27,7 +25,7 @@
      
      
       </div>
-       <h1 style="text-align:center">   Enter Ingredients</h1>
+       <h2 style="text-align:center">   Enter Ingredients</h2>
       <p>
         Please enter the ingredients you would like to use seperated by commas<br><br>
       <i>  Example. "chicken,eggs"</i>
@@ -36,7 +34,7 @@
         
         
       <div class="modal-content2">
-    <span class="close" onclick="closer()" style="cursor:pointer">&times;</span>
+    <span class="close" onclick="closer()">&times;</span>
   <form style="text-align:center;">
     <br>
     Ignore Basic Pantry Ingredients (ex. flour,water,salt): <input type="checkbox" name="pantry" id="pantry">
@@ -47,7 +45,7 @@
       <option name="maximize" id="maximize" value="1">Maximize</option>
       <option name="minimize" id="minimize" value="2">Minimize</option>
     </select>
-     <br> <div id="modalSub" onclick="closer()">Submit</div>
+     <br> <div id="modalSub" class="submit" onclick="closer()">Submit</div>
         </form>
   </div>  
         
