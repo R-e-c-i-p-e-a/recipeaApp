@@ -18,16 +18,23 @@ After user testing, most users liked the simple button options and the filter se
 
 ### Tasks:
 
-#### 1. Filter Search 
-#### 2. Add Search for Recipes
+#### 1. Filter, Search, & Refresh 
+![Filter, Search, & Refresh](img/SearchBar.png)
+#### 2. Add Search by Recipea Name
+![Search by Recipe Name ](img/SearchRecipe.png)
 #### 3. Save Recipes 
+![Saved Recipea Page](img/SavedRecipe.png)
 
 ### Components:
 
 #### 1. Branding  
 ![Style Sheet](img/Branding.png)
 #### 2. Interactive Data Filter
+![Filter Design 1](img/Filter1.png)
+![Filer Design 2](img/Filter2.png)
 #### 3. External Data Integration
+![Ingredients Search Page](img/IngredientSearch.png)
+![Recipea Search Page](img/RecipeSearch.png)
 #### 4. Gamification
 
 ## Reflection
