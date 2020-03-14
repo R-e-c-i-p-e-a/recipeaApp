@@ -144,19 +144,19 @@ float:right;
   font-size:.8rem;
 }
 .fa-filter{
-  border:2px solid black;
-  padding-top:.5rem;
-  padding-bottom:.5rem;
-  padding-left:.5rem;
-  padding-right:.5rem;
-  border-radius:15px;
+  border: none;
+  background: #6dc06e;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  padding-left:1rem;
+  padding-right:1rem;
   transition: color 1s;
   transition: background-color 1s;
-  cursor:pointer
+  cursor:pointer;
+  color: #fff;
 }
 .fa-filter:hover{
-  color:white;
-  background-color:black;
+  background-color:#559141;
 }
 /* modal */
 .modal {
