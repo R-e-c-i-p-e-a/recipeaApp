@@ -1,10 +1,6 @@
 
 var displayCount = 0;
 const search = (ev) => {
-  
-  // Badges | Increment numSearches counter
-  updateNumSearches();
-
   document.querySelector('#output').innerHTML = ' ';
   document.querySelector('#output').innerHTML ='Loading...';
   //filter logic
@@ -51,14 +47,13 @@ const displayResults = (data) => {
     //missing ingredients logic
     
    
-    string = '   <div class="a" > <div class="name">Name:'+data['results'][i]['title']+'</div><img class="img" src="https://spoonacular.com/recipeImages/'+data['results'][i]['image']+'"></img>  <i class="fa fa-star" style="font-size:1.3rem;"></i>  <i class="fa fa-star" style="font-size:1.3rem;"></i> <i class="fa fa-star" style="font-size:1.3rem;"></i> <i class="fa fa-star" style="font-size:1.3rem;"></i> <div class="prep"> <span style="font-weight:bold">Prep Time:</span> '+data['results'][i]['readyInMinutes']+' minutes';
+    string = '   <div class="a" > <div class="name">Name:'+data['results'][i]['title']+'</div><img class="img" src="https://spoonacular.com/recipeImages/'+data['results'][i]['image']+'"></img>  <div class="prep"> <span style="font-weight:bold;">Prep Time: '+data['results'][i]['readyInMinutes']+' minutes </span> ';
    
   
   string += "<i style='cursor:pointer' class='fa fa-plus' onclick='extraDetails("+data['results'][i]['id']+")'></i>";
-  string += "<i class='fa fa-heart fa-2x' onclick='updateNumHearts()'></i>";
   string += "</div></div>";
     
-   document.querySelector('.top').innerHTML += string;
+   document.querySelector('.topA').innerHTML += string;
 }
   document.querySelector('#output').innerHTML = 'Please refresh page to make new query! ';
 }
@@ -123,8 +118,9 @@ const closer = () =>{
   modal2.style.display = "none";
   
 }
-
 const refresh = () =>{
   document.querySelector('.topA').innerHTML = '';
 }
 document.querySelector('#refresher').onclick = refresh;
+
+
