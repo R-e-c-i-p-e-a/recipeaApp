@@ -167,7 +167,7 @@ p{
   color: #fff;
 }
 .fa-filter:hover{
-  background-color:#559141;
+  background-color:#134611;
 }
 .fa-refresh{
   border: none;
@@ -182,7 +182,7 @@ p{
   color: #fff;
 }
 .fa-refresh:hover{
-  background-color:#559141;
+  background-color:#134611;
 }
 .fa-search{
   border: none;
@@ -197,7 +197,7 @@ p{
   color: #fff;
 }
 .fa-search:hover{
-  background-color:#559141;
+  background-color:#134611;
 }
 .close{
   border: none;
@@ -212,7 +212,7 @@ p{
   color: #fff;
 }
 .close:hover{
-  background-color:#559141;
+  background-color:#134611;
 }
 .submit{
   border: none;
@@ -231,27 +231,15 @@ p{
       position: relative;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
-      transition: all 0.3s ease;
+      transition: color 1s;
+      transition: background-color 1s;
     text-transform: uppercase;
     color: #fff;
 }
 .submit:hover{
-  background-color:#559141;
+  background-color:#134611;
 }
-#modalSub{
-  border:2px solid black;
-  width:5rem;
-  text-align:center;
-  margin:auto;
-  margin-top:2rem;
-  cursor:pointer;
-  transition: background-color 1s;
-  transition: color 1s;
-}
-#modalSub:hover{
-  background-color:black;
-  color:white;
-}
+
 /* ytool pop up */
 .tl {
   
@@ -290,7 +278,7 @@ margin-left:-8rem;
   width: 100%;
   padding: 20px;
   border-radius: 6px;
-  background: #fff;
+  background-color:#eef0ee;
   box-shadow: 0 0 8px #134611; 
   text-align: center;
   font-size: 25px;
