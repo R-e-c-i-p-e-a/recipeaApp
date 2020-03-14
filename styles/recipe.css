@@ -78,16 +78,7 @@ margin:auto;
    margin-left:4rem;
   margin-bottom:4rem;
 }
-.fa-heart{
-  margin-top:3rem;
-  float:right;
-  cursor:pointer;
-  transition:color .4s;
-  color:black;
-}
-.fa-heart:hover{
- color:red;
-}
+
 
 .d{
  margin:auto;
