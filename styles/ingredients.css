@@ -158,7 +158,21 @@ float:right;
 .fa-filter:hover{
   background-color:#559141;
 }
-
+.fa-refresh{
+  border: none;
+  background: #6dc06e;
+  padding-top:.80rem;
+  padding-bottom:.90rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  transition: color 1s;
+  transition: background-color 1s;
+  cursor:pointer;
+  color: #fff;
+}
+.fa-refresh:hover{
+  background-color:#559141;
+}
 .fa-search{
   border: none;
   background: #6dc06e;
@@ -172,6 +186,45 @@ float:right;
   color: #fff;
 }
 .fa-search:hover{
+  background-color:#559141;
+}
+.close{
+  border: none;
+  background: #6dc06e;
+  padding-top:.80rem;
+  padding-bottom:.90rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  transition: color 1s;
+  transition: background-color 1s;
+  cursor:pointer;
+  color: #fff;
+}
+.close:hover{
+  background-color:#559141;
+}
+.submit{
+  border: none;
+  background: #6dc06e;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  font-family: 'Lato';
+      font-size: inherit;
+      cursor: pointer;
+      padding: 10px 50px;
+      display: inline-block;
+      margin: 15px 30px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s ease;
+    text-transform: uppercase;
+    color: #fff;
+}
+.submit:hover{
   background-color:#559141;
 }
 /* modal */
@@ -239,13 +292,23 @@ p{
   background-color:black;
   color:white;
 }
-.fa-heart{
+.heart{
   margin-top:3rem;
   float:right;
   cursor:pointer;
   transition:color .4s;
   color:black;
 }
-.fa-heart:hover{
+.heart:hover{
  color:red;
 }
+.modal-content2 {
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 8px #134611; 
+  text-align: center;
+  font-size: 25px;
+  color: #134611;
+  }
