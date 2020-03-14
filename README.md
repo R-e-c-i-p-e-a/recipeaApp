@@ -35,7 +35,7 @@ After user testing, most users liked the simple button options and the filter se
 - What the next steps of your app would be if you had more time
 
 ## Links
-Link to the Repository [R-e-c-p-e-a](https://github.com/R-e-c-i-p-e-a)
+Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a)
 
 A link to a working version of your prototype (or a video of it)
 
