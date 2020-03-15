@@ -62,7 +62,7 @@ The purpose was to reward the user for 'achieving' certain website benchmarks. W
 
 ## Links
 - Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a). 
-- A link to a working version of the prototype [](https://r-e-c-i-p-e-a.github.io/recipeaApp/)   
+- A link to a working version of the prototype [https://r-e-c-i-p-e-a.github.io/recipeaApp/](https://r-e-c-i-p-e-a.github.io/recipeaApp/)   
 - Open the above link on Google Chrome to view the WebApp. 
 
 
