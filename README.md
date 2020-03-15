@@ -52,7 +52,7 @@ The above filter options is for search by recipe page. These are basic filters b
 The above two screenshots show sample recipe and ingredient search. The data is integrated from spoonacular API.  
   
 ### 4. Gamification
-
+![Gamification](img/Game.png)
 This component incoporates a simple game. If a User accesses a saved recipe multple times, they are give extra rewards/credits. They rewarded when they clicked on a saved recipe for than 5 and 10 times.  
 
 # Reflection
