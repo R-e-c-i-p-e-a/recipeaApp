@@ -20,11 +20,16 @@ After user testing, most users liked the simple button options and the filter se
 
 #### 1. Filter, Search, & Refresh 
 ![Filter, Search, & Refresh](img/SearchBar.png)
+The main goal of this website is to search for recipes based on dish name or ingredients. this achived with the use of a search bar and a search button. Additionally the search options can be filtered using filter button. The refresh is to clear the search options and start a new search.  
+  
 #### 2. Add Search by Recipea Name
 ![Search by Recipe Name ](img/SearchRecipe.png)
+From user research, the app based only on ingredient search will not be entirely useful. It helps to a search based on recipea too. This gives extra functionality for users.  
+    
 #### 3. Save Recipes 
 ![Saved Recipea Page](img/SavedRecipe.png)
-
+Saved recipea page holda a list of all recipes saved by the user. This helps the user to access recipes that they loved during search and also have easy access to regularly used recipes. This page could also be used for gamification component mentioned below. 
+  
 ### Components:
 
 #### 1. Branding  
@@ -32,13 +37,21 @@ After user testing, most users liked the simple button options and the filter se
 The addition of Brand-components relates to the points made in Norman’s interface design principles. For one, our design principles are analogous to the narrative explained in the text surrounding holds on telephones. The new telephone in Norman’s example had many new features that users didn’t care about, but agreed that one small feature (the hold button) was missing. People seem to intuitively know how they want their tools to work. Our goal through Brand development, element building, and revisioning is to make our application feel natural and simple to the user while still providing rich cuisine assistance to the user.  
 
 Our new prototype version aligns more closely to several of the graphic design principles covered in class. Our core focus was very much around color and composition. These two factors really help drive our project identity/values so that the user has a more intuitive experience using our tool. We decided to go with medium-saturation, ‘Earthy’ color palette made up of many secondary colors. The purpose was to have somewhat of a combination between tertiary and complementary color combinations.  
-
+  
 #### 2. Interactive Data Filter
 ![Filter Design 1](img/Filter1.png)
+The above filter options is for ingredient search page. User can choose to include or exclude basic pantry. This is helpful for users that might not have some common groceries. It also gives an option where users can prioritise if users want search based on the ingredients they have or don't have.  
+  
+  
 ![Filer Design 2](img/Filter2.png)
+The above filter options is for search by recipe page. These are basic filters based on user dietry preferences.   
+  
 #### 3. External Data Integration
 ![Ingredients Search Page](img/IngredientSearch.png)
 ![Recipea Search Page](img/RecipeSearch.png)
+  
+The above two screenshots show sample recipe and ingredient search. The data is integrated from spoonacular API.  
+  
 #### 4. Gamification
 
 ## Reflection
