@@ -11,6 +11,7 @@ const clear = () =>{
  console.log("clear"); //document.querySelector('#topData').innerHTML = ' ';
   console.log("clear2"); 
 }
+var badges = {“numSearches”: 0}
 const search = (ev) => {
  
    
@@ -39,6 +40,17 @@ const search = (ev) => {
      fetch(url)
         .then(response => response.json())
         .then(displayResults);
+   badges["numSearches"] += 1
+  console.log(badges["numSearches"])
+  if (badges["numSearches"] == 5) {
+    var modal = document.getElementById("myModal4");
+    modal.style.display = "block";
+ }
+ if (badges["numSearches"] == 10) {
+    var modal2 = document.getElementById("myModal4");
+    document.getElementById("achImg").src = "img/10search.png";
+    modal2.style.display = "block";
+ }
   
 }
 var missinNames = [];
