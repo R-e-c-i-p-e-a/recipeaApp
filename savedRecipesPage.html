@@ -16,7 +16,7 @@
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <body>
     <div class="top">
-      <span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span>
+      <a href="index.html"><span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span></a>
       <!-- <span id="topL" class="btn-2 btn-sep fa fa-heart">Saved Recipeas</span> -->
     </div>
     
@@ -26,8 +26,28 @@
 
          <div class="top">      
           <h2 style="text-align:center">Saved Recipeas</h2>
+
+          <div id="myModal3" class="modal" style="display: none">
+            <div class="modal-content2">
+              <span class="close" onclick="closer()" style="cursor:pointer">&times;</span>
+            <form style="text-align:center;">
+              <div>
+                <div>
+                  Congrats! Achievement unlocked!
+                </div>
+                <img id="achImg" src="img/5heart.png">
+                <p id="achText">
+                  [Achievement text goes here.]
+                </p>
+              </div>
+               <br> <div id="modalSub" onclick="closer()">Done</div>
+                  </form>
+            </div>     
+          </div>
+          
+          </div>
       
-      <a href="recipePage.html"><div class="a">
+      <div class="a">
        <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -38,10 +58,10 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
         <div class="heart">
-          <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>      
-      </div></a>
+          <i class="fa fa-heart" onclick="updateNumHearts()" style="font-size:1.3rem;"></i></div>      
+      </div>
 
-      <a href="recipePage.html"><div class="b">
+      <div class="b">
            <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -52,14 +72,14 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
          <div class="heart">
-          <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>
-      </div></a>
+          <i class="fa fa-heart" onclick="updateNumHearts()" style="font-size:1.3rem;"></i></div>
+      </div>
       </div>
 
         <br><br><br>
 
       <div class="bottom">
-       <a href="recipePage.html"><div class="c">
+      <div class="c">
           <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -70,10 +90,10 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
          <div class="heart">
-          <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>
-      </div></a>
+          <i class="fa fa-heart" onclick="updateNumHearts()" style="font-size:1.3rem;"></i></div>
+         </div>
 
-       <a href="recipePage.html"><div class="d">
+      <div class="d">
          <div class="name">Name: Bread</div>
      <div class="img"></div>
         <i class="fa fa-star" style="font-size:1.3rem;"></i>
@@ -84,8 +104,8 @@
        <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
         </div>
          <div class="heart">
-          <i class="fa fa-heart" style="font-size:1.3rem;"></i></div>
-      </div></a>
+          <i class="fa fa-heart" onclick="updateNumHearts()" style="font-size:1.3rem;"></i></div>
+      </div>
       
       </div>
     </div>

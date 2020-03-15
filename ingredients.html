@@ -14,10 +14,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
- <body>
+   <body>
     <div class="top">
-      <span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span>
-
+      <a href="index.html"><span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span></a>
       <a href="savedRecipesPage.html"><span id="topL" class="btn-2 btn-sep fa fa-heart">Saved Recipeas</span></a>
      
        
@@ -26,17 +25,33 @@
      
      
       </div>
-       <h1 style="text-align:center">   Enter Ingredients</h1>
+       <h2 style="text-align:center">   Enter Ingredients</h2>
       <p>
         Please enter the ingredients you would like to use seperated by commas<br><br>
       <i>  Example. "chicken,eggs"</i>
       </p>
+      <!-- Modal search badge   -->
+      <div id="myModal4" class="modal" style="display: none">
+        <div class="modal-content2">
+          <span class="close" onclick="closer()" style="cursor:pointer">&times;</span>
+        <form style="text-align:center;">
+          <div>
+            <div>
+              Congrats! Achievement unlocked!
+            </div>
+            <img id="achImg" src="img/5search.png">
+          </div>
+            <br> <div id="modalSub" onclick="closer()">Done</div>
+              </form>
+        </div>  
+        <i class="fa fa-refresh" style="font-size:1.3rem;margin-left: 45px;cursor:pointer;" id="refresher"></i>
+      </div>
       <div id="myModal2" class="modal">
         
         
       <div class="modal-content2">
-    <span class="close" onclick="closer()" style="cursor:pointer">&times;</span>
-  <form>
+    <span class="close" onclick="closerD()">&times;</span>
+  <form style="text-align:center;">
     <br>
     Ignore Basic Pantry Ingredients (ex. flour,water,salt): <input type="checkbox" name="pantry" id="pantry">
     <br>
@@ -46,6 +61,7 @@
       <option name="maximize" id="maximize" value="1">Maximize</option>
       <option name="minimize" id="minimize" value="2">Minimize</option>
     </select>
+     <br> <div id="modalSub" class="submit" onclick="closerD()">Submit</div>
         </form>
   </div>  
         
@@ -54,14 +70,17 @@
 
   <!-- modal text -->
   <div class="modal-content">
-    <span class="close" onclick="closer()">&times;</span>
+    <span class="close" onclick="closerD()">&times;</span>
   
   </div>
 
 </div>
       
       
-      <div id="searchFilter" style="text-align:center" ><span onclick="filterModal();"><i class="fa fa-filter" style="font-size:1.2rem;margin-right:1rem;" id="myBtn" onclick="filterModal();"></i></span><input type="text" placeholder="search" id="search" value =''/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;" id="searcher"></i></div>
+      <div id="searchFilter" style="text-align:center" ><span onclick="filterModal();"><i class="fa fa-filter" style="font-size:1.2rem;margin-right:1rem;" id="myBtn" onclick="filterModal();"></i></span><input type="text" placeholder="search" id="search" value =''/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;" id="searcher"></i>
+        
+        <i class="fa fa-refresh" style="font-size:1.3rem;margin-left: 45px;cursor:pointer;" id="refresher"></i>
+      </div>
       <div id="output" style="text-align:center">
       Temp Query Output:
       
@@ -72,7 +91,7 @@
     <!-- end top features -->
     <div class="main">
 
-         <div class="top" id="topData">          
+         <div class="topA" id="topData">          
      
       
     

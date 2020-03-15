@@ -13,13 +13,15 @@ body {
  background-color:	#eef0ee;
   grid-gap:3rem;
 }
-.top{
-  grid-area:top;
-  
-  margin-top:1rem;
-}
+
 #topL{
   float:right;
+}
+.top{
+  grid-area:top;
+  }
+.top{
+  display:inline-block;
 }
 
 .listIngredi{
@@ -83,12 +85,9 @@ margin-top:-7rem;
   padding-left:5rem;
   padding-right:5rem; 
 }
-.top{
-  margin-top:5rem;
-  display:inline;
-}
+
 .a{
-background-color: #8FE875;
+background-color:#f8d2a3;
   margin-left:4rem;
   width:19rem;
   float:left;
@@ -145,19 +144,89 @@ float:right;
   font-size:.8rem;
 }
 .fa-filter{
-  border:2px solid black;
-  padding-top:.5rem;
-  padding-bottom:.5rem;
-  padding-left:.5rem;
-  padding-right:.5rem;
-  border-radius:15px;
+  border: none;
+  background: #6dc06e;
+  padding-top:.80rem;
+  padding-bottom:.90rem;
+  padding-left:1rem;
+  padding-right:1rem;
   transition: color 1s;
   transition: background-color 1s;
-  cursor:pointer
+  cursor:pointer;
+  color: #fff;
 }
 .fa-filter:hover{
-  color:white;
-  background-color:black;
+  background-color:#134611;
+}
+.fa-refresh{
+  border: none;
+  background: #6dc06e;
+  padding-top:.80rem;
+  padding-bottom:.90rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  transition: color 1s;
+  transition: background-color 1s;
+  cursor:pointer;
+  color: #fff;
+}
+.fa-refresh:hover{
+  background-color:#134611;
+}
+.fa-search{
+  border: none;
+  background: #6dc06e;
+  padding-top:.80rem;
+  padding-bottom:.90rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  transition: color 1s;
+  transition: background-color 1s;
+  cursor:pointer;
+  color: #fff;
+}
+.fa-search:hover{
+  background-color:#134611;
+}
+.close{
+  border: none;
+  background: #6dc06e;
+  padding-top:.80rem;
+  padding-bottom:.90rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  transition: color 1s;
+  transition: background-color 1s;
+  cursor:pointer;
+  color: #fff;
+}
+.close:hover{
+  background-color:#134611;
+}
+.submit{
+  border: none;
+  background: #6dc06e;
+  padding-top:.5rem;
+  padding-bottom:.5rem;
+  font-family: 'Lato';
+      font-size: inherit;
+      cursor: pointer;
+      padding: 10px 50px;
+      display: inline-block;
+      margin: 15px 30px;
+      letter-spacing: 1px;
+      font-weight: 700;
+      outline: none;
+      position: relative;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: color 1s;
+  transition: background-color 1s;
+    text-transform: uppercase;
+    color: #fff;
+}
+.submit:hover{
+  background-color:#134611;
 }
 /* modal */
 .modal {
@@ -190,7 +259,8 @@ float:right;
   padding:20px;
   border: 1px solid #888;
   width: 80%;
-  height:30%;
+  height:50%;
+  
 }
 img{
   display: block;
@@ -209,3 +279,24 @@ p{
 .missinIng{
   display:none
 }
+
+.heart{
+  margin-top:3rem;
+  float:right;
+  cursor:pointer;
+  transition:color .4s;
+  color:black;
+}
+.heart:hover{
+ color:red;
+}
+.modal-content2 {
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #eef0ee;
+  box-shadow: 0 0 8px #134611; 
+  text-align: center;
+  font-size: 25px;
+  color: #134611;
+  }

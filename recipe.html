@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" >
+
 <head>
   <meta charset="UTF-8">
   <title>Recipea | Enter Recipe</title>
@@ -17,122 +18,121 @@
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <body>
     <div class="top">
-      <span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span>
+      <a href="index.html"><span id="back" class="btn-3 btn-sep fa fa-arrow-left" onclick="goBack()">Back</span></a>
       <a href="savedRecipesPage.html"><span id="topL" class="btn-2 btn-sep fa fa-heart">Saved Recipeas</span></a>
-       <h2 style="text-align:center">Enter Recipea</h2>
-      <div id="searchFilter" style="text-align:center"><input type="text" placeholder="search" id="search"/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;"></i></div>
+       <h2 style="text-align:center;padding-left:8rem;">Enter Recipea</h2>
+            <p style="text-align:center;">
+        Please enter the recipe you would like to use <br><br>
+      <i>  Example. "Lasagne, Sushi, Souffle"</i>
+      </p>
+      
+     <div id="myModal2" class="modal">
+        
+        
+      <div class="modal-content2">
+    <span class="close" onclick="closerD()" >&times;</span>
+  <form style="text-align:center;">
+    <br>
+  
+      Cuisine:
+         <select id="cuisine" >
+      <option value="zero"></option>
+      <option name="African" id="African" value="African">African</option>
+      <option name="American" id="American" value="American">American</option>
+      <option name="British" id="British" value="British">British</option>
+      <option name="Cajun" id="Cajun" value="Cajun">Cajun</option>
+      <option name="Caribbean" id="Caribbean" value="Caribbean">Caribbean</option>
+      <option name="Chinese" id="Chinese" value="Chinese">Chinese</option>
+      <option name="Eastern European" id="Eastern European" value="Eastern European">Eastern European</option>
+      <option name="European" id="European" value="European">European</option>
+      <option name="French" id="French" value="French"> French</option>
+      <option name="German" id="German" value="German"> German</option>        
+           <option name="Greek" id="Greek" value="Greek"> Greek</option>
+           <option name="Indian" id="Indian" value="Indian"> Indian</option>
+           <option name="Irish" id="Irish" value="Irish"> Irish</option> 
+            <option name="Italian" id="Italian" value="Italian">Italian</option>
+           <option name="Japanese" id="Japanese" value="Japanese">Japanese</option>
+           <option name="Jewish" id="Jewish" value="Jewish">Jewish</option>
+            <option name="Korean" id="Korean" value="Korean">Korean</option>
+           <option name="Latin American" id="Latin American" value="Latin American">Latin American</option>
+           <option name="Mediterranean" id="Mediterranean" value="Mediterranean">Mediterranean</option>
+           <option name="Mexican" id="Mexican" value="Mexican">Mexican</option>
+           <option name="Middle Eastern" id="Middle Eastern" value="Middle Eastern">Middle Eastern</option>
+           <option name="Nordic" id="Nordic" value="Nordic">Nordic</option>
+           <option name="Southern" id="Southern" value="Southern">Southern</option>
+           <option name="Spanish" id="Spanish" value="Spanish">Spanish</option>
+            <option name="Thai" id="Thai" value="Thai">Thai</option>
+           <option name="Vietnamese" id="Vietnamese" value="Vietnamese">Vietnamese</option>
+   
+    </select>
+  
+    <br>
+      
+  
+    
+ Diet: 
+    <select id="diet" >
+      <option value="zero"></option>
+      <option name="Gluten Free" id="GlutenFree" value="Gluten Free">Gluten Free</option>
+      <option name="Ketogenic" id="Ketogenic" value="Ketogenic">Ketogenic</option>
+      <option name="Vegetarian" id="Vegetarian" value="Vegetarian">Vegetarian</option>
+      <option name="Vegan" id="Vegan" value="Vegan">Vegan</option>
+      <option name="Lacto-Vegetarian" id="Lacto-Vegetarian" value="Lacto-Vegetarian">Lacto-Vegetarian</option>
+      <option name="Ovo-Vegetarian" id="Ovo-Vegetarian" value="Ovo-Vegetarian">Ovo-Vegetarian</option>
+      <option name="Pescetarian" id="Pescetarian" value="Pescetarian">Pescetarian</option>
+      <option name="Paleo" id="Paleo" value="Paleo">Paleo</option>
+      <option name="Primal" id="Primal" value="Primal"> Primal</option>
+      <option name="Whole30" id="Whole30" value="Whole30"> Whole30</option>
+     
+    </select>
+    <br>
+    Intolerances
+   <select id="intolerances" >
+
+      <option value="zero"></option>
+      <option name="Dairy" id="Dairy" value="Dairy">Dairy</option>
+      <option name="Egg" id="Egg" value="Egg">Egg</option>
+      <option name="Gluten" id="Gluten" value="Gluten">Gluten</option>
+      <option name="Grain" id="Grain" value="Grain">Grain</option>
+      <option name="Peanut" id="Peanut" value="Peanut">Peanut</option>
+      <option name="Seafood" id="Seafood" value="Seafood">Seafood</option>
+      <option name="Sesame" id="Sesame" value="Sesame">Sesame</option>
+      <option name="Shellfish" id="Shellfish" value="Shellfish">Shellfish</option>
+      <option name="Soy" id="Soy" value="Soy">Soy</option>
+      <option name="Sulfite" id="Sulfite" value="Sulfite"> Sulfite</option>
+     <option name="Tree Nut" id="Tree Nut" value="Tree Nut"> Tree Nut</option>
+     <option name="Wheat" id="Wheat" value="Wheat"> Wheat</option>
+    
+    </select>  
+   <br> <div id="modalSub" class="submit" onclick="closerD()">Submit</div>
+        </form>
+  </div>  
+        
+      </div>  
+      <div id="myModal" class="modal">
+
+  <!-- modal text -->
+  <div class="modal-content">
+    <span class="close" onclick="closerD()">&times;</span>
+  
+  </div>
+
+</div>
+      
+      
+      <div id="searchFilter" style="text-align:center"><span onclick="filterModal();"><i class="fa fa-filter" style="font-size:1.2rem;margin-right:1rem;" id="myBtn" onclick="filterModal();"></i></span><input type="text" placeholder="search" id="search"/><i class="fa fa-search" style="font-size:1.3rem;margin-left: -45px;cursor:pointer;" id="searcher"></i>
+        
+       <i class="fa fa-refresh" style="font-size:1.3rem;margin-left: 45px;cursor:pointer;" id="refresher"></i>
+      </div>
+      <div id="output"></div>
     </div>
     
     
     <!-- end top features -->
     <div class="main">
 
-         <div class="top">          
-    <a href="recipePage.html"><div class="a">
-       <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
+         <div class="topA">.</div>
        
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-        <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div></a>
-
-      <a href="recipePage.html"><div class="a">
-           <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-          <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div></a>
-            
-      <a href="recipePage.html"><div class="a">
-          <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-              <i class="fa fa-heart" style="font-size:1.3rem;m"></i>
-      </div></a>
-           
-      <a href="recipePage.html"><div class="a">
-          <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-               <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div></a>
-
-      <a href="recipePage.html"><div class="d">
-         <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-          <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div></a>
-           
-      <a href="recipePage.html"><div class="d">
-         <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-               <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div></a>
-           
-      <a href="recipePage.html"><div class="d">
-         <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-               <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div></a>
-
-      <a href="recipePage.html"><div class="d">
-         <div class="name">Name: Bread</div>
-     <div class="img"></div>
-        <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-         <i class="fa fa-star" style="font-size:1.3rem;"></i>
-        
-       <div class="prep">Prep Time: The prep time of this piece is to be determined with more data 
-        </div>
-              <i class="fa fa-heart" style="font-size:1.3rem;"></i>
-      </div></a>
-      </div>
-        <br><br><br>
       
     </div>
   </body>
@@ -140,5 +140,6 @@
 </html>
 <!-- partial -->
   <script src="./scripts/global.js"></script> 
+    <script src="./scripts/recipe.js"></script> 
 </body>
 </html>
