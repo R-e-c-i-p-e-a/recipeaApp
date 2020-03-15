@@ -189,7 +189,7 @@ btn.onclick = function() {
 }
 
 // When the user clicks on <span> (x), close the modal
-const closer = () =>{
+const closerD = () =>{
  // document.querySelector('.modal-content').innerHTML += ' ';
   var modal = document.getElementById("myModal");
    var modal2 = document.getElementById("myModal2");
