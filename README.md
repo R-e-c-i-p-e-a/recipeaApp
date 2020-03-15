@@ -46,10 +46,8 @@ Our new prototype version aligns more closely to several of the graphic design p
 - If given more time, we would design profiles so that each user can personalize their own experience, conduct more user testing to improve on the current state of our web application, and encode better accessibility to make the application more accessible to all users.  
 
 ## Links
-Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a)
+- Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a). 
+- A link to a working version of the prototype [](https://r-e-c-i-p-e-a.github.io/recipeaApp/)   
+- Open the above link on Google Chrome to view the WebApp. 
 
-A link to a working version of your prototype (or a video of it)
-
-Instructions for running your app  
-This prototype is best viewed on Google Chrome  
 
