@@ -1,5 +1,5 @@
+![](img/RecipeaLogo.png)  
 [https://r-e-c-i-p-e-a.github.io/recipeaApp/](https://r-e-c-i-p-e-a.github.io/recipeaApp/)   
-![](img/RecipeaLogo.png)
 ## Goal
 - Our cooking application mainly targets those that are young professionals between the ages of 20-30. We plan to optimize our application for those that have busy schedules (limited time to cook) and may not know how to cook or may struggle to find recipes for the ingredients they have on-hand.
 - There are many webApps that help users to search of recipes with key ingredients. But it doesn't account for all the other ingredients that user might not have to prepare the dish. Help people by providing instructions or recipes to cook food based on the ingredients they have in the kitchen. 
