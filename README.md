@@ -50,7 +50,7 @@ The above filter options is for search by recipe page. These are basic filters b
 ![Ingredients Search Page](img/IngredientSearch.png)
 ![Recipea Search Page](img/RecipeSearch.png)
   
-The above two screenshots show sample recipe and ingredient search. The data is integrated from spoonacular API.  
+The above two screenshots show sample recipe and ingredient search. The data is integrated from spoonacular API. These API results show up as cards only when specifically searched upon. You can also now search for multiple items at a time, as requested by user testing.
   
 #### 4. Gamification
 The purpose was to reward the user for 'achieving' certain website benchmarks. We chose to incorporate badges as rewards. If a user hearts a certain amount of recipes, they get rewarded with 'Heart Badges' (only 5 and 10 clicks work in our prototype). Moreover, if the user makes a certain amount of searches, they get rewarded with 'Search Badges' (only 5 and 10 clicks work in our prototype). The purpose is to encourage our users to interact with our site, save recipes, and search for many recipes. It's a fun engaging way to feel like you are 'gaining experience' with our site. Below are screenshot examples of what happens when a user clicks a heart button 5, and 10 times:  
@@ -63,6 +63,6 @@ The purpose was to reward the user for 'achieving' certain website benchmarks. W
 ## Links
 - Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a). 
 - A link to a working version of the prototype [https://r-e-c-i-p-e-a.github.io/recipeaApp/](https://r-e-c-i-p-e-a.github.io/recipeaApp/)   
-- Open the above link on Google Chrome to view the WebApp. 
+- Open the above link on Google Chrome to use the application. 
 
 
