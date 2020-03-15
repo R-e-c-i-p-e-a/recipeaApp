@@ -110,7 +110,7 @@ const filterModal = () => {
 
 //end modal details 
 
-const closer = () =>{
+const closerD = () =>{
  // document.querySelector('.modal-content').innerHTML += ' ';
   var modal = document.getElementById("myModal");
    var modal2 = document.getElementById("myModal2");
