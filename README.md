@@ -40,11 +40,10 @@ The addition of Brand-components relates to the points made in Norman’s interf
 Our new prototype version aligns more closely to several of the graphic design principles covered in class. Our core focus was very much around color and composition. These two factors really help drive our project identity/values so that the user has a more intuitive experience using our tool. We decided to go with medium-saturation, ‘Earthy’ color palette made up of many secondary colors. The purpose was to have somewhat of a combination between tertiary and complementary color combinations.  
   
 #### 2. Interactive Data Filter
-![Filter Design 1](img/Filter1.png)
+![Filter Design 1](img/Filter1.png)  
 The above filter options is for ingredient search page. User can choose to include or exclude basic pantry. This is helpful for users that might not have some common groceries. It also gives an option where users can prioritise if users want search based on the ingredients they have or don't have.  
   
-  
-![Filer Design 2](img/Filter2.png)
+![Filer Design 2](img/Filter2.png)  
 The above filter options is for search by recipe page. These are basic filters based on user dietry preferences.   
   
 #### 3. External Data Integration
@@ -55,14 +54,14 @@ The above two screenshots show sample recipe and ingredient search. The data is 
   
 #### 4. Gamification
 The purpose was to reward the user for 'achieving' certain website benchmarks. We chose to incorporate badges as rewards. If a user hearts a certain amount of recipes, they get rewarded with 'Heart Badges' (only 5 and 10 clicks work in our prototype). Moreover, if the user makes a certain amount of searches, they get rewarded with 'Search Badges' (only 5 and 10 clicks work in our prototype). The purpose is to encourage our users to interact with our site, save recipes, and search for many recipes. It's a fun engaging way to feel like you are 'gaining experience' with our site. Below are screenshot examples of what happens when a user clicks a heart button 5, and 10 times:  
-![5 Hearts Reward Badge](img/5heartsScreenshot.png)
-![10 Hearts Reward Badge](img/10heartScreenshot.png)
+![5 Hearts Reward Badge](img/5heartsScreenshot.png)  
+![10 Hearts Reward Badge](img/10heartScreenshot.png)  
 ## Reflection
 - Throughout the course, we were able to develop a cooking website that provides users with the knowledge to cook meals with varying degrees of experience. Throughout the studio sessions, we were able to integrate critical feedbacks into the design and mechanics of the site to make going through our tasks as easy and efficient as possible.  
 - If given more time, we would design profiles so that each user can personalize their own experience, conduct more user testing to improve on the current state of our web application, and encode better accessibility to make the application more accessible to all users.  
 
 ## Links
-- Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a). 
+- Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a)  
 - A link to a working version of the prototype [https://r-e-c-i-p-e-a.github.io/recipeaApp/](https://r-e-c-i-p-e-a.github.io/recipeaApp/)   
 - Open the above link on Google Chrome to use the application. 
 
