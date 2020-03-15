@@ -29,6 +29,10 @@ After user testing, most users liked the simple button options and the filter se
 
 #### 1. Branding  
 ![Style Sheet](img/Branding.png)
+The addition of Brand-components relates to the points made in Norman’s interface design principles. For one, our design principles are analogous to the narrative explained in the text surrounding holds on telephones. The new telephone in Norman’s example had many new features that users didn’t care about, but agreed that one small feature (the hold button) was missing. People seem to intuitively know how they want their tools to work. Our goal through Brand development, element building, and revisioning is to make our application feel natural and simple to the user while still providing rich cuisine assistance to the user.  
+
+Our new prototype version aligns more closely to several of the graphic design principles covered in class. Our core focus was very much around color and composition. These two factors really help drive our project identity/values so that the user has a more intuitive experience using our tool. We decided to go with medium-saturation, ‘Earthy’ color palette made up of many secondary colors. The purpose was to have somewhat of a combination between tertiary and complementary color combinations.  
+
 #### 2. Interactive Data Filter
 ![Filter Design 1](img/Filter1.png)
 ![Filer Design 2](img/Filter2.png)
@@ -38,8 +42,8 @@ After user testing, most users liked the simple button options and the filter se
 #### 4. Gamification
 
 ## Reflection
-- Throughout the course, we were able to develop a cooking website that provides users with the knowledge to cook meals with varying degrees of experience. Throughout the studio sessions, we were able to integrate critical feedbacks into the design and mechanics of the site to make going through our tasks as easy and efficient as possible.
-- If given more time, we would design profiles so that each user can personalize their own experience, conduct more user testing to improve on the current state of our web application, and encode better accessibility to make the application more accessible to all users.
+ Throughout the course, we were able to develop a cooking website that provides users with the knowledge to cook meals with varying degrees of experience. Throughout the studio sessions, we were able to integrate critical feedbacks into the design and mechanics of the site to make going through our tasks as easy and efficient as possible.
+- What the next steps of your app would be if you had more time	- If given more time, we would design profiles so that each user can personalize their own experience, conduct more user testing to improve on the current state of our web application, and encode better accessibility to make the application more accessible to all users.
 
 ## Links
 Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a)
