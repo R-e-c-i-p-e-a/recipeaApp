@@ -53,7 +53,9 @@ The above filter options is for search by recipe page. These are basic filters b
 The above two screenshots show sample recipe and ingredient search. The data is integrated from spoonacular API.  
   
 #### 4. Gamification
-
+The purpose was to reward the user for 'achieving' certain website benchmarks. We chose to incorporate badges as rewards. If a user hearts a certain amount of recipes, they get rewarded with 'Heart Badges' (only 5 and 10 clicks work in our prototype). Moreover, if the user makes a certain amount of searches, they get rewarded with 'Search Badges' (only 5 and 10 clicks work in our prototype). The purpose is to encourage our users to interact with our site, save recipes, and search for many recipes. It's a fun engaging way to feel like you are 'gaining experience' with our site. Below are screenshot examples of what happens when a user clicks a heart button 5, and 10 times:  
+![5 Hearts Reward Badge](img/5heartsScreenshot.png)
+![10 Hearts Reward Badge](img/10heartScreenshot.png)
 ## Reflection
 - Throughout the course, we were able to develop a cooking website that provides users with the knowledge to cook meals with varying degrees of experience. Throughout the studio sessions, we were able to integrate critical feedbacks into the design and mechanics of the site to make going through our tasks as easy and efficient as possible.  
 - If given more time, we would design profiles so that each user can personalize their own experience, conduct more user testing to improve on the current state of our web application, and encode better accessibility to make the application more accessible to all users.  
