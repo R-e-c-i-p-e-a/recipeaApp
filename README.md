@@ -38,8 +38,8 @@ After user testing, most users liked the simple button options and the filter se
 #### 4. Gamification
 
 ## Reflection
-- What you managed to accomplish in the time you had
-- What the next steps of your app would be if you had more time
+- Throughout the course, we were able to develop a cooking website that provides users with the knowledge to cook meals with varying degrees of experience. Throughout the studio sessions, we were able to integrate critical feedbacks into the design and mechanics of the site to make going through our tasks as easy and efficient as possible.
+- If given more time, we would design profiles so that each user can personalize their own experience, conduct more user testing to improve on the current state of our web application, and encode better accessibility to make the application more accessible to all users.
 
 ## Links
 Link to the Repository [R-e-c-i-p-e-a](https://github.com/R-e-c-i-p-e-a)
