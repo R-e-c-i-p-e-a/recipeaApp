@@ -3,7 +3,7 @@ const goBack = () => {
 }
 
 var badges = {
-   numSearches"numHearts": 0,
+   "numHearts": 0,
    "numSearches": 0
 }
 
